@@ -6,12 +6,13 @@
 }
 body{
 display: block;
+  width: 99vw;
   min-height: 100vh;
   margin: 0;
   text-rendering: optimizeSpeed;
 }
 .container {
-  width: 100%;
+  width: 95%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),url(./images/fundal.jpg);
   background-size: cover;
@@ -358,7 +359,7 @@ nav ul li a:hover::after {
 
     
     
-    width: 100vw;
+    width: 95vw;
     font-size: 12px;
   }
   
