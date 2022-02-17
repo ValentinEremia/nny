@@ -1,20 +1,20 @@
 {
-    "name": "NNY-Website",
-    "short_name": "NNY.web",
+    "name": "Design",
+    "short_name": "NNY",
     "start_url": ".",
-    "background_color": "#0a0a0a",
-    "theme_color": "#0a0a0a",
+    "background_color": "#18191f",
+    "theme_color": "#18191f",
     "display": "standalone",
     "icons": [
         {
-            "src": "images/icon-192.png",
+            "src": "images/design by Vali_192.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "maskable"
         },   
         {
-            "src": "images/logo-500.png",
-            "sizes": "500x500",
+            "src": "images/design by Vali.png",
+            "sizes": "512x512",
             "type": "image/png",
             "purpose": "any"
         }
