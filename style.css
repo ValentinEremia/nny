@@ -231,11 +231,12 @@ nav ul li a:hover::after {
     width: 92px;
   }
   .text-box {
-    width: 90%;
+    width: 95%;
+    height: min-content;
     padding: 0 5%;
     font-size: 13px;
-    height: min-content;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
   .text-box h3 {
     font-size: 1.5em;
@@ -256,7 +257,7 @@ nav ul li a:hover::after {
   }
 }
 
-@media (max-width: 378px) {
+@media (max-width: 431px) {
   nav {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -278,17 +279,34 @@ nav ul li a:hover::after {
     line-height: 1;
     font-size: 4.9em;
   }
+  h3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  h1, p {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
   .text-box a {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
     padding: 7px 10px;
     margin: 2px;
   }
   .text-box {
+    justify-content: center;
+    display: flex;
     width: 100vw;
     font-size: 12px;
   }
   .row {
-    display: block;
-    width: auto;
+    flex-wrap: wrap;
   }
 }
 /*# sourceMappingURL=style.css.map */
