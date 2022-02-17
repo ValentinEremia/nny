@@ -7,19 +7,19 @@
 
 body {
   display: block;
-  width: 99vw;
+  width: 100vw;
   min-height: 100vh;
   margin: 0;
   text-rendering: optimizeSpeed;
 }
 
 .container {
-  width: 95%;
+  width: 100vw;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(./images/fundal.jpg);
   background-size: cover;
   background-position: center;
-  padding: 0 8%;
+  padding: 0 10px;
   position: relative;
 }
 
@@ -217,7 +217,7 @@ nav ul li a:hover::after {
 
 @media (max-width: 675px) {
   .container {
-    width: 100vw;
+    width: 100%;
     background-position: 30%;
   }
   .social-icons img {
@@ -276,13 +276,13 @@ nav ul li a:hover::after {
   }
   h1, p {
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: center;
     align-items: center;
   }
   .text-box a {
     display: flex;
-    width: 95%;
+    width: 95vw;
     justify-content: center;
     align-items: center;
     padding: 7px 10px;
@@ -291,7 +291,7 @@ nav ul li a:hover::after {
   .text-box {
     justify-content: center;
     display: flex;
-    width: 100vw;
+    width: 95vw;
     font-size: 12px;
   }
   .row {
