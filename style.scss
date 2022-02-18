@@ -11,6 +11,8 @@ body{
   margin: 0;
   text-rendering: optimizeSpeed;
 }
+
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -39,7 +41,7 @@ nav p{
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
-    color: #ccc;
+    color: rgb(219, 219, 219);
     
     
 }
@@ -230,7 +232,7 @@ nav ul li a:hover::after {
     width: 95%;
     height: min-content;
     padding: 0 4%;
-    font-size: 13px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     
@@ -292,11 +294,11 @@ nav ul li a:hover::after {
     
     
     width: 95vw;
-    font-size: 12px;
+    
   }
   .row {
     flex-wrap: wrap;
-    
+    font-size: 15px;
     
   }
 }
@@ -349,13 +351,14 @@ nav ul li a:hover::after {
     align-items: center;
     padding: 7px 10px;
     margin: 2px;
+
   }
 
   .text-box {
     justify-content: center;
     display: flex;
     
-  
+    bottom: 20%;
 
     
     
